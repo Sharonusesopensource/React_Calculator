@@ -1,0 +1,71 @@
+form{
+  margin: 50px auto;
+  max-width: 320px;
+  height: 420px;
+  border: 2px solid white;
+  border-radius :20px;
+  box-shadow: 0 0 7px 7px white;
+  background-image: linear-gradient(#496b38, #172514, #161616);
+
+}
+form:hover{
+  border: 2px solid #fff000;
+  border-radius :20px;
+  box-shadow: 0 0 7px 7px #fff000;
+  background-image: linear-gradient(#161616,#496b38, #172514);
+}
+.display{
+  padding: 20px;
+  margin: 20px auto;
+  color: white;
+  border:2px solid white;
+  border-radius:12px;
+  box-shadow: 0 0 3px 3px white;
+  width:70%;
+  height: 9%;
+  font-size:20px;
+  overflow:auto;
+  flex:1;
+  font-weight:bold;
+
+}
+.display:hover{
+  box-shadow: 0 0 7px 7px #fff000;
+  border: 2px solid #fff000;
+}
+span{
+  max-width: 60%;
+  word-wrap:break-word;
+
+}
+.cal-body {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+button{
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  display: flex;
+  flex-wrap:wrap;
+  min-height: 60px;
+  min-width:68px;
+  align-items: center;
+  justify-content: center;
+  margin:4px;
+  border:1px solid #caceb5;
+  border-radius: 8px;
+  color:white;
+  font-size:22px;
+  box-shadow:  0 -5px 3px -3px #496b38, 0 5px 3px -3px #496b38;
+  background-image: linear-gradient(#496b38, #172514);
+
+}
+button:hover{
+  font-size:20px;
+  min-height: 57px;
+  min-width: 66px;
+  margin-bottom:2px;
+  border:1px solid #caceb5;
+  box-shadow:  0 -5px 3px -3px #caceb5, 0 5px 3px -3px #caceb5;
+  background-image: linear-gradient( #496b38,#24351C, #161616 );
+}

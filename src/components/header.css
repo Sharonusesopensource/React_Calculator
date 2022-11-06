@@ -1,0 +1,13 @@
+
+h2{
+  display:flex;
+  font-family: OCR A Std, monospace;
+  color: white;
+  justify-content: flex-end;
+  margin-bottom: 50px;;
+  font-size:larger;
+}
+h2:hover{
+  justify-content: flex-start;
+  font-size:x-large;
+}
